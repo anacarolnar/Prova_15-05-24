@@ -1,0 +1,75 @@
+.maincard
+{
+    background-color: rgb(244, 242, 252);
+    color: white;
+    height: 60vh;
+    padding: 3rem;
+    width: 100%;
+    
+
+}
+
+.cards
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card1, .card2, .card3
+{
+    border: 1px solid rgb(216, 216, 216);
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.cardimg1
+{
+    background-image: url(../imagens/mountain.png);
+    height: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cardimg2
+{
+    background-image: url(../imagens/sun.png);
+    height: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cardimg3
+{
+    background-image: url(../imagens/waves.png);
+    height: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cardtexto1, .cardtexto2, .cardtexto3
+{
+    color: rgb(14, 12, 12);
+    background-color: #abdaddf3;
+    text-align: justify;
+    padding: 1rem;
+    
+}
+
+.imagens
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.botao
+{
+    margin-top: 5%;
+    margin-left: 50%;
+    
+}
